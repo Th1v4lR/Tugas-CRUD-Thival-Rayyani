@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data User</title>
+    <style>fieldset {
+        width: 400px;
+        margin: auto;}
+    </style>
+</head>
+<body>
+    <!--membungkus tampilan Read Data-->
+    <fieldset>
+        <!--Judul Pada Fielset-->
+        <legend align="center">Input Data Buku</legend>
+
+        <!--Tampilan Form Input Data-->
+        <form action="tambah_proses.php" method ="post">
+            <input type="text" name="ID_Buku" placeholder="ID_Buku" size="40px">
+            <br><br>
+            <input type="text" name="Kategori" placeholder="Kategori" size="40px">
+            <br><br>
+            <input type="text" name="Nama_Buku" placeholder="Nama_Buku" size="40px">
+            <br><br>
+            <input type="text" name="Harga" placeholder="Harga" size="40px">
+            <br><br>
+            <input type="text" name="Stok" placeholder="Stok" size="40px">
+            <br><br>
+            <input type="text" name="Penerbit" placeholder="Penerbit" size="40px">
+            <br><br>
+            <button type="submit" name="submit">Simpan</button>
+            <button type="reset" name="reset">Reset</button>
+        </form>
+    </fieldset>
+</body>
+</html>

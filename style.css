@@ -1,0 +1,76 @@
+.table_on{
+    max-width: 900px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+.table2 {
+    max-width: 900px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+.index_hom{
+    width: 100%;
+    font-size: 16.5px;
+    border-collapse: collapse;
+}
+
+.tampilan_admin{
+    width: 100%;
+    font-size: 16.5px;
+    border-collapse: collapse;
+    background: yellow;
+    
+}
+
+table thead{
+    color: rgb(78, 3, 56);
+}
+
+table thead th {
+    padding: 8px;
+    background-color: aqua;
+}
+table th,
+table td {
+    border: 1px solid #0e0ee9;
+    background: yellow;
+    
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    gap: 50px;
+    justify-content: right;
+    background: aqua;
+    line-height: 70px;
+    text-decoration: underline;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    position: sticky;
+    position: -webkit-sticky;
+    
+    padding-top: 7px;
+    z-index: 1;
+    border-bottom:1px solid rgb(249, 253, 9);
+}
+
+nav h3{
+    margin-right: 500px;
+    position: fixed;
+    display: block;
+    text-align: justify;
+    width: 1px;
+}
+
+nav a{
+    margin-top: 40px;
+    margin-right: 8px;
+}
